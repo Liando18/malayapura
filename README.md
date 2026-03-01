@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌶️ Malayapura Spice Group
 
-## Available Scripts
+**Website Company Profile PT Malayapura Spice Group**
 
-In the project directory, you can run:
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/javascript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/css)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/html)
 
-### `npm start`
+*Website Company Profile · React.js · PT Malayapura Spice Group*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📖 Deskripsi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Malayapura** adalah website company profile resmi untuk **PT Malayapura Spice Group**, sebuah perusahaan yang bergerak di industri rempah-rempah. Website ini dibangun menggunakan **React.js** dan dirancang untuk memperkenalkan profil perusahaan, produk, dan layanan secara profesional kepada calon mitra dan pelanggan.
 
-### `npm run build`
+### ✨ Fitur Utama
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🏢 **Profil Perusahaan** — Informasi lengkap tentang PT Malayapura Spice Group
+- 🌶️ **Showcase Produk** — Tampilan produk rempah-rempah unggulan
+- 📱 **Responsive Design** — Tampilan optimal di semua ukuran layar
+- 🎨 **UI Modern** — Antarmuka yang bersih dan profesional
+- 📬 **Halaman Kontak** — Informasi kontak dan lokasi perusahaan
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Kategori | Teknologi |
+|---|---|
+| **Framework** | React.js (Create React App) |
+| **Bahasa** | JavaScript |
+| **Styling** | CSS3 |
+| **Markup** | HTML5 |
+| **Package Manager** | npm |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Prasyarat
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Pastikan perangkat kamu sudah terinstal:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Node.js** >= 14.x
+- **npm** >= 6.x
+- **Git**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Cara Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clone Repository
 
-### Code Splitting
+```bash
+git clone https://github.com/Liando18/malayapura.git
+cd malayapura
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Install Dependensi
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ▶️ Cara Menjalankan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Mode Development
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Aplikasi akan terbuka otomatis di browser pada: **[http://localhost:3000](http://localhost:3000)**
 
-### Deployment
+Perubahan kode akan langsung terlihat tanpa perlu me-refresh halaman (*hot reload*).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Build untuk Produksi
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Output akan tersimpan di folder `build/` dan siap untuk di-deploy ke server.
+
+### Menjalankan Test
+
+```bash
+npm test
+```
+
+---
+
+## 📁 Struktur Folder
+
+```
+malayapura/
+│
+├── public/                     # Aset publik & HTML template
+│   ├── index.html              # Entry point HTML
+│   ├── favicon.ico             # Ikon website
+│   └── ...
+│
+├── src/                        # Source code React
+│   ├── components/             # Komponen UI yang dapat digunakan ulang
+│   ├── pages/                  # Halaman utama website
+│   ├── assets/                 # Gambar, ikon, dan media
+│   ├── styles/                 # File CSS global & komponen
+│   ├── App.js                  # Komponen root aplikasi
+│   └── index.js                # Entry point React
+│
+├── package.json                # Dependensi & konfigurasi npm
+├── package-lock.json           # Lock file dependensi
+├── .gitignore                  # File yang diabaikan Git
+└── README.md                   # Dokumentasi proyek
+```
+
+---
+
+## 🚀 Deploy
+
+Website ini dapat di-deploy ke berbagai platform hosting statis:
+
+**Vercel**
+```bash
+npm install -g vercel
+vercel --prod
+```
+
+**Netlify**
+```bash
+npm run build
+# Upload folder build/ ke Netlify Dashboard
+```
+
+**GitHub Pages**
+```bash
+npm install -g gh-pages
+# Tambahkan "homepage" di package.json lalu:
+npm run build && gh-pages -d build
+```
+
+---
+
+## 🤝 Kontribusi
+
+1. Fork repository ini
+2. Buat branch fitur baru (`git checkout -b fitur/nama-fitur`)
+3. Commit perubahan (`git commit -m 'Menambahkan fitur baru'`)
+4. Push ke branch (`git push origin fitur/nama-fitur`)
+5. Buat Pull Request
+
+---
+
+## 📄 Lisensi
+
+Didistribusikan di bawah lisensi **MIT**. Lihat file `LICENSE` untuk informasi lebih lanjut.
+
+---
+
+<div align="center">
+
+Dikembangkan dengan ❤️ untuk **PT Malayapura Spice Group**
+
+</div>
